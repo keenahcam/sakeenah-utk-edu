@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sakeenah Camara | Contact</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        form {
+            max-width: 500px;
+            margin: 20px auto;
+            background: #fff;
+            padding: 40px; /* Increased padding */
+            border-radius: 8px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            border: 1px solid #ccc;
+        }
+        form label {
+            display: block;
+            font-weight: 600;
+            margin-bottom: 5px;
+        }
+        form input, form textarea, form button {
+            display: block;
+            width: 100%;
+            margin-bottom: 15px;
+            padding: 10px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            font-size: 14px;
+        }
+        form button {
+            background-color: #ff8200;
+            color: white;
+            font-weight: bold;
+            border: none;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+        }
+        form button:hover {
+            background-color: #e06c00;
+        }
+    </style>
+</head>
+<body>
+
+<header role="banner">
+    <img src="https://brand.utk.edu/wp-content/uploads/2019/02/University-CenteredLogo-RGB.png"
+         alt="University of Tennessee Knoxville Logo">
+</header>
+
+
+<div class="nav-bar">
+    <nav role="navigation">
+        <ul>
+            <li><a href="index.html">About Me</a></li>
+            <li><a href="course.html">Courses</a></li>
+            <li><a href="experience.html">Experience</a></li>
+            <li><a href="contact.html" aria-current="page">Contact</a></li>
+        </ul>
+    </nav>
+</div>
+
+
+<main>
+    <section>
+        <h1>Contact</h1>
+
+        <form action="#" method="post" aria-label="Contact Form">
+
+            <label for="name">Name</label>
+            <input type="text" id="name" name="name" required>
+
+
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" required>
+
+
+            <label for="message">Message</label>
+            <textarea id="message" name="message" rows="5" required></textarea>
+
+
+            <button type="submit">Send Message</button>
+        </form>
+
+
+    </section>
+</main>
+
+<!-- Footer -->
+<footer>
+    <p>&copy; 2024 Sakeenah Camara. All Rights Reserved.</p>
+</footer>
+</body>
+</html>
